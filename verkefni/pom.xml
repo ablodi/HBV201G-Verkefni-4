@@ -5,6 +5,9 @@
     <groupId>is</groupId>
     <artifactId>verkefni</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    
+    <name>Verkefni-4 Ludo endurbætur</name>
+    <url>https://github.com/ablodi/HBV201G-Verkefni-4</url>
 
     <properties>
         <!--
