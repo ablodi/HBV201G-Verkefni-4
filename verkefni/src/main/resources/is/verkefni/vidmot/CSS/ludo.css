@@ -1,0 +1,96 @@
+.text-style {
+	-fx-font-size: 16px;
+	-fx-alignment : CENTER;	
+}
+
+.player-two {
+	-fx-background-color: yellow;
+	-fx-border-color: black;
+}
+.player-one-finishline {
+	-fx-background-color: lightyellow;
+	-fx-border-color: yellow;
+}
+.player-one-start {
+	-fx-background-image: url("myndir/blue_start.png");
+	-fx-background-size: cover;
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+.player-one-pawn {
+	-fx-background-image: url("myndir/pawn_blue.png");
+}
+.player-one {
+	-fx-background-color: blue;
+	-fx-border-color: black;
+}
+.player-two-finishline {
+	-fx-background-color: lightblue;
+	-fx-border-color: blue;
+}
+.player-two-start {
+	-fx-background-image: url("myndir/yellow_start.png");
+	-fx-background-size: cover;
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+.player-two-pawn {
+	-fx-background-image: url("myndir/pawn_yellow.png");
+}
+.play-square {
+	-fx-background-color: lightgrey;
+	-fx-border-color: black;
+}
+.finishline {
+	-fx-background-color: black;
+}
+.one, .two, .three, .four, .five, .six {
+	-fx-background-size: cover;
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+.one {
+	-fx-background-image: url("myndir/one.png");
+}
+.two {
+	-fx-background-image: url("myndir/two.png");
+}
+.three {
+	-fx-background-image: url("myndir/three.png");
+}
+.four {
+	-fx-background-image: url("myndir/four.png");
+}
+.five {
+	-fx-background-image: url("myndir/five.png");
+}
+.six {
+	-fx-background-image: url("myndir/six.png");
+}
+.end {
+	-fx-background-size: contain;
+	-fx-background-color: white;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center center;
+	-fx-background-image: url("myndir/end.png");
+}
+.win {
+	-fx-background-size: contain;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center center;
+	-fx-background-image: url("myndir/win.png");
+}
+.start {
+	-fx-background-size: contain;
+	-fx-background-color: white;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center center;
+	-fx-background-image: url("myndir/start.png");
+}
+.play {
+	-fx-background-size: contain;
+	-fx-background-color: white;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center center;
+	-fx-background-image: url("myndir/play.png");
+}
