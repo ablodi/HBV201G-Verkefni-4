@@ -21,7 +21,6 @@ public class Leikmadur {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return this.nafn.getValue() + " " + this.reitur.getValue();
 	}
 	
