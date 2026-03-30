@@ -17,13 +17,8 @@ import javafx.beans.property.StringProperty;
  *****************************************************************************/
 public class Ludo {
 	
-	enum leikStada {
-		IGANGI,
-		LOKID;
-	}
-	
 	private final SimpleObjectProperty<Leikmadur> leikTurn = new SimpleObjectProperty<Leikmadur>();
-	private final SimpleObjectProperty<leikStada> stadaLeiks = new SimpleObjectProperty<Ludo.leikStada>();
+	private final SimpleObjectProperty<leikStada> stadaLeiks = new SimpleObjectProperty<leikStada>();
 	private final StringProperty teningaSkilabod =  new SimpleStringProperty();
 	private BooleanBinding iGangi;
 	private int umferd = 0;

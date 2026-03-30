@@ -6,15 +6,14 @@ import javafx.beans.property.SimpleObjectProperty;
 public class Reitur {
 	private SimpleIntegerProperty row = new SimpleIntegerProperty();
 	private SimpleIntegerProperty col = new SimpleIntegerProperty();
-	private SimpleObjectProperty<reiturType> reiturTypa = new SimpleObjectProperty<Reitur.reiturType>();
-	enum reiturType {
-		NORMAL,
-		START,
-		BLUEFINISHLINE,
-		YELLOWFINISHLINE,
-		END;
-	}
-	
+	private SimpleObjectProperty<reiturType> reiturTypa = new SimpleObjectProperty<reiturType>();
+	/**
+	 * Smiður fyrir reiti á leikborðinu
+	 * 
+	 * @param row Lína reitsins í fxml
+	 * @param col Dálkur reitsins í fxml
+	 * @param type Týpa reitsins
+	 */
 	public Reitur(int row, int col, String type) {
 		this.row.setValue(row);
 		this.col.setValue(col);
