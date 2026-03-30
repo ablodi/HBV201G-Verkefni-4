@@ -1,4 +1,4 @@
-package is.verkefni.vidmot;
+package is.verkefni.vidmot.controller;
 
 import java.net.URL;
 import java.util.HashMap;

@@ -11,7 +11,11 @@ module ModuleNafn {
 	requires javafx.graphics;
 	requires javafx.base;
     opens is.verkefni.vidmot to javafx.fxml;
+    opens is.verkefni.vidmot.controller to javafx.fxml;
+    opens is.verkefni.vidmot.switcher to javafx.fxml;
 
+    exports is.verkefni.vidmot.switcher;
+    exports is.verkefni.vidmot.controller;
     exports is.verkefni.vidmot;
     exports is.verkefni.vinnsla;
 }
